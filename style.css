@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "my-font";
+    src: url("Mulish-Regular.ttf");
+}
+
+
+body {
+    font-family: "my-font";
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.card {
+    width: 20%;
+    border-radius: 12px;
+    border: 1px solid rgba(232, 231, 231, 1);  
+}
+
+
+
+.image {
+    width: 50%;
+    height: 35px;
+}
+
+
+.paragraph01 {
+    font-weight: 600;
+}
+
+
+.bloodSugerPhoto {
+    background-color: rgba(248, 222, 189, 1);
+    border-radius: 12px;
+}
+
+
+.heartRatePhoto {
+    background-color: rgba(251, 240, 243, 1);
+    border-radius: 12px;
+}
+
+
+.bloodPressurePhoto{
+    background-color: rgba(208, 251, 255, 1);
+    border-radius: 12px;
+}
+
+
+.bloodTemperaturePhoto {
+    background-color: rgba(248, 189, 189, 1);
+    border-radius: 12px;
+}
+
+
+
+.paragraph02 {
+    font-size: 32px;
+}
+
+
+span {
+    font-weight: 700;
+    color: rgba(129, 129, 129, 1);
+    font-size: 16px;
+}
+
+
+.divNormal {
+    width: 33%;
+    height: 23px;
+    background-color: rgba(248, 222, 189, 1);
+    border-radius: 4px;
+}
+
+
+.divNormal2 {
+    width: 33%;
+    height: 23px;
+    background-color: rgba(251, 240, 243, 1);
+    border-radius: 4px;
+}
+
+
+.divNormal3 {
+    width: 33%;
+    height: 23px;
+    background-color: rgba(208, 251, 255, 1);
+    border-radius: 4px;
+}
+
+
+
+.divNormal4 {
+    width: 33%;
+    height: 23px;
+    background-color: rgba(248, 189, 189, 1);
+    border-radius: 4px;
+}
+
+
+.paragraph04 {
+    font-size: 12px;
+    font-weight: 600;
+}
