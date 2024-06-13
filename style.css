@@ -17,7 +17,7 @@ body {
 
 
 .card {
-    width: 75%;
+    width: 100%;
     border-radius: 12px;
     border: 1px solid rgba(232, 231, 231, 1);  
 }
@@ -32,6 +32,7 @@ body {
 
 .paragraph01 {
     font-weight: 600;
+    height: 50px;
 }
 
 
@@ -53,7 +54,7 @@ body {
 }
 
 
-.bloodTemperaturePhoto {
+.bodyTemperaturePhoto {
     background-color: rgba(248, 189, 189, 1);
     border-radius: 12px;
 }
@@ -108,4 +109,14 @@ span {
 .paragraph04 {
     font-size: 12px;
     font-weight: 600;
+}
+
+
+.card-img-bottom {
+    height: 72px;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
 }
