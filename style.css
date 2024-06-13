@@ -1,23 +1,20 @@
-* {
+* {       /* ამას ვტოვებ*/ 
     box-sizing: border-box;
 }
 
 
-@font-face {
+@font-face {         /* ამას ვტოვებ*/ 
     font-family: "my-font";
     src: url("Mulish-Regular.ttf");
 }
 
 
-body {
+body {           /* ამას ვტოვებ*/ 
     font-family: "my-font";
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 
-.card {
-    width: 100%;
+.card {      /* ამას ვტოვებ*/ 
     border-radius: 12px;
     border: 1px solid rgba(232, 231, 231, 1);  
 }
@@ -30,58 +27,28 @@ body {
 }
 
 
-.paragraph01 {
-    font-weight: 600;
-    height: 50px;
-}
 
-
-.bloodSugerPhoto {
-    background-color: rgba(248, 222, 189, 1);
-    border-radius: 12px;
-}
-
-
-.heartRatePhoto {
-    background-color: rgba(251, 240, 243, 1);
-    border-radius: 12px;
-}
-
-
-.bloodPressurePhoto{
-    background-color: rgba(208, 251, 255, 1);
-    border-radius: 12px;
-}
-
-
-.bodyTemperaturePhoto {
-    background-color: rgba(248, 189, 189, 1);
-    border-radius: 12px;
-}
-
-
-
-.paragraph02 {
+.paragraph02 {  /* ამას ვტოვებ*/ 
     font-size: 32px;
 }
 
 
-span {
+span {  /* ამას ვტოვებ*/ 
     font-weight: 700;
     color: rgba(129, 129, 129, 1);
     font-size: 16px;
 }
 
 
-.divNormal {
-    width: 33%;
+.divNormal {  /* ამას ვტოვებ*/ 
+    width: 30%;
     height: 23px;
     background-color: rgba(248, 222, 189, 1);
     border-radius: 4px;
 }
 
 
-.divNormal2 {
+.divNormal2 {  /* ამას ვტოვებ*/ 
     width: 33%;
     height: 23px;
     background-color: rgba(251, 240, 243, 1);
@@ -89,7 +56,7 @@ span {
 }
 
 
-.divNormal3 {
+.divNormal3 {  /* ამას ვტოვებ*/ 
     width: 33%;
     height: 23px;
     background-color: rgba(208, 251, 255, 1);
@@ -98,7 +65,7 @@ span {
 
 
 
-.divNormal4 {
+.divNormal4 {  /* ამას ვტოვებ*/ 
     width: 33%;
     height: 23px;
     background-color: rgba(248, 189, 189, 1);
@@ -106,17 +73,39 @@ span {
 }
 
 
-.paragraph04 {
-    font-size: 12px;
-    font-weight: 600;
-}
 
-
-.card-img-bottom {
+.card-img-bottom {       /* ამას ვტოვებ*/ 
     height: 72px;
 }
 
-.icons {
-    width: 50px;
-    height: 50px;
+
+.icons1 {  /* ამას ვტოვებ*/ 
+    width: 58px;
+    height: 58px;
+    background-color: rgba(248, 222, 189, 1);
+    border-radius: 12px;
+}
+
+
+.icons2 {  /* ამას ვტოვებ*/ 
+    width: 58px;
+    height: 58px;
+    background-color: rgba(251, 240, 243, 1);
+    border-radius: 12px;
+}
+
+
+.icons3 {  /* ამას ვტოვებ*/ 
+    width: 58px;
+    height: 58px;
+    background-color: rgba(208, 251, 255, 1);
+    border-radius: 12px;
+}
+
+
+.icons4 {  /* ამას ვტოვებ*/ 
+    width: 58px;
+    height: 58px;
+    background-color: rgba(248, 189, 189, 1);
+    border-radius: 12px;
 }
